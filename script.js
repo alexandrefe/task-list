@@ -1,4 +1,4 @@
-// Storing Elements 
+// Salvando os elementos
 
 const inputTask = document.querySelector('.inputTask')
 
@@ -6,11 +6,11 @@ const buttonTask = document.querySelector('.buttonTask')
 
 const taskList = document.querySelector('.tasklist')
 
-// Adding Event Listeners to elements
+// Adicionando Event Listeners aos elementos
 
 buttonTask.addEventListener('click', addTask)
 
-// Adding a Task with check button and delete button
+// Adicionando Task com check button and delete button
 
 function addTask(event) {
 
