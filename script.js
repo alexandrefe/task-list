@@ -32,6 +32,13 @@ function addTask(event) {
 
   taskDiv.appendChild(newTask)
 
+  if(inputTask.value === "") {
+    return null
+  }
+
+  // Append para atual LIST
+  taskList.appendChild(taskDiv);
 
 }
+
 
